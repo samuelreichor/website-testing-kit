@@ -1,0 +1,865 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",  
+  "scenarioDefaults": {
+    "cookiePath": "sksturm.at.cookies.json"
+  },
+  "scenarios": [
+  {
+    "label": "/m/profis/2023-2024/bundesliga",
+    "url": "https://sksturm.at/m/profis/2023-2024/bundesliga",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/bundesliga",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/juli",
+    "url": "https://sksturm.at/m/profis/2023-2024/juli",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/juli",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/austria-wien-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/austria-wien-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/austria-wien-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/august",
+    "url": "https://sksturm.at/m/profis/2023-2024/august",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/august",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/austria-lustenau-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/austria-lustenau-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/austria-lustenau-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-blau-weiss-linz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-blau-weiss-linz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-blau-weiss-linz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/september",
+    "url": "https://sksturm.at/m/profis/2023-2024/september",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/september",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/rheindorf-altach-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/rheindorf-altach-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/rheindorf-altach-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/rapid-wien-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/rapid-wien-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/rapid-wien-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/october",
+    "url": "https://sksturm.at/m/profis/2023-2024/october",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/october",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/wolfsberger-ac-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/wolfsberger-ac-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/wolfsberger-ac-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-wien",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-wien",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-wien",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-wsg-tirol",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-wsg-tirol",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-wsg-tirol",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/november",
+    "url": "https://sksturm.at/m/profis/2023-2024/november",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/november",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-lustenau",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-lustenau",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-lustenau",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/december",
+    "url": "https://sksturm.at/m/profis/2023-2024/december",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/december",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/blau-weiss-linz-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/blau-weiss-linz-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/blau-weiss-linz-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-rheindorf-altach",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-rheindorf-altach",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-rheindorf-altach",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/february",
+    "url": "https://sksturm.at/m/profis/2023-2024/february",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/february",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid-wien",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid-wien",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid-wien",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/wsg-tirol-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/wsg-tirol-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/wsg-tirol-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/march",
+    "url": "https://sksturm.at/m/profis/2023-2024/march",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/march",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-wolfsberger-ac",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-wolfsberger-ac",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-wolfsberger-ac",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/austria-klagenfurt-vs-sturm-graz-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-salzburg-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/april",
+    "url": "https://sksturm.at/m/profis/2023-2024/april",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/april",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-lask-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/hartberg-vs-sturm-graz-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-rapid",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/rapid-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/rapid-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/rapid-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/salzburg-vs-sturm-graz-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/may",
+    "url": "https://sksturm.at/m/profis/2023-2024/may",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/may",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-hartberg-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/lask-vs-sturm-graz-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt-2",
+    "url": "https://sksturm.at/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/bundesliga/2023-2024/sturm-graz-vs-austria-klagenfurt-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/oefb-cup",
+    "url": "https://sksturm.at/m/profis/2023-2024/oefb-cup",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/oefb-cup",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/juli-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/juli-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/juli-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/sak-klagenfurt-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/sak-klagenfurt-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/sak-klagenfurt-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/september-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/september-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/september-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/sv-leobendorf-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/sv-leobendorf-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/sv-leobendorf-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/november-3",
+    "url": "https://sksturm.at/m/profis/2023-2024/november-3",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/november-3",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/gak-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/gak-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/gak-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/februar",
+    "url": "https://sksturm.at/m/profis/2023-2024/februar",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/februar",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/sturm-graz-vs-austria-wien",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/sturm-graz-vs-austria-wien",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/sturm-graz-vs-austria-wien",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/april-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/april-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/april-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/salzburg-vs-sturm",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/salzburg-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/salzburg-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/mai",
+    "url": "https://sksturm.at/m/profis/2023-2024/mai",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/mai",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/oefb-cup/2023-2024/rapid-vs-sturm",
+    "url": "https://sksturm.at/m/profis/oefb-cup/2023-2024/rapid-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/oefb-cup/2023-2024/rapid-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/champions-league",
+    "url": "https://sksturm.at/m/profis/2023-2024/champions-league",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/champions-league",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/europa-league",
+    "url": "https://sksturm.at/m/profis/2023-2024/europa-league",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/europa-league",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/freundschaftsspiel",
+    "url": "https://sksturm.at/m/profis/2023-2024/freundschaftsspiel",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/freundschaftsspiel",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/juni",
+    "url": "https://sksturm.at/m/profis/2023-2024/juni",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/juni",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/tsv-kirchberg-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/tsv-kirchberg-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/tsv-kirchberg-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/juli-1",
+    "url": "https://sksturm.at/m/profis/2023-2024/juli-1",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/juli-1",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-ns-mura",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-ns-mura",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-ns-mura",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-spartak-trnava",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-spartak-trnava",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-spartak-trnava",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-backa-topola",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-backa-topola",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-backa-topola",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-aris-limmasol",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-aris-limmasol",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-aris-limmasol",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-galatasaray",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-galatasaray",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-galatasaray",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-partizan",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-partizan",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-partizan",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/rc-strasbourg-vs-sk-sturm",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/rc-strasbourg-vs-sk-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/rc-strasbourg-vs-sk-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/september-3",
+    "url": "https://sksturm.at/m/profis/2023-2024/september-3",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/september-3",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-sv-lafnitz",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-sv-lafnitz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-sv-lafnitz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/oktober-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/oktober-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/oktober-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-vs-fac",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-vs-fac",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-vs-fac",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/jaenner-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/jaenner-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/jaenner-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-vs-rijeka",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-vs-rijeka",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-vs-rijeka",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-vs-korona-kielce",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-vs-korona-kielce",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-vs-korona-kielce",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-vs-kecsmeti",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-vs-kecsmeti",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-vs-kecsmeti",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/ks-cracovia-vs-sturm",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/ks-cracovia-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/ks-cracovia-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-vs-pogon",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-vs-pogon",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-vs-pogon",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/dnipro-1",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/dnipro-1",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/dnipro-1",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/maerz-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/maerz-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/maerz-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-bw-linz",
+    "url": "https://sksturm.at/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-bw-linz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/freundschaftsspiel/2023-2024/sturm-graz-vs-bw-linz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/uefa-champions-league",
+    "url": "https://sksturm.at/m/profis/2023-2024/uefa-champions-league",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/uefa-champions-league",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/august-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/august-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/august-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-champions-league/2023-2024/psv-eindhoven-vs-sturm-graz",
+    "url": "https://sksturm.at/m/profis/uefa-champions-league/2023-2024/psv-eindhoven-vs-sturm-graz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-champions-league/2023-2024/psv-eindhoven-vs-sturm-graz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-champions-league/2023-2024/sturm-graz-vs-psv-eindhoven",
+    "url": "https://sksturm.at/m/profis/uefa-champions-league/2023-2024/sturm-graz-vs-psv-eindhoven",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-champions-league/2023-2024/sturm-graz-vs-psv-eindhoven",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/uefa-europa-league",
+    "url": "https://sksturm.at/m/profis/2023-2024/uefa-europa-league",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/uefa-europa-league",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/september-4",
+    "url": "https://sksturm.at/m/profis/2023-2024/september-4",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/september-4",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/sk-sturm-vs-sporting-cp",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/sk-sturm-vs-sporting-cp",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/sk-sturm-vs-sporting-cp",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/oktober",
+    "url": "https://sksturm.at/m/profis/2023-2024/oktober",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/oktober",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/sturm-vs-atalanta",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/sturm-vs-atalanta",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/sturm-vs-atalanta",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/november-2",
+    "url": "https://sksturm.at/m/profis/2023-2024/november-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/november-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/atalanta-vs-sturm",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/atalanta-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/atalanta-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm-2",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm-2",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/rakow-vs-sturm-2",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/dezember",
+    "url": "https://sksturm.at/m/profis/2023-2024/dezember",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/dezember",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-europa-league/2023-2024/sporting-vs-sturm",
+    "url": "https://sksturm.at/m/profis/uefa-europa-league/2023-2024/sporting-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-europa-league/2023-2024/sporting-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/uefa-conference-league",
+    "url": "https://sksturm.at/m/profis/2023-2024/uefa-conference-league",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/uefa-conference-league",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/jaenner",
+    "url": "https://sksturm.at/m/profis/2023-2024/jaenner",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/jaenner",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-conference-league/2023-2024/sturm-vs-slovan",
+    "url": "https://sksturm.at/m/profis/uefa-conference-league/2023-2024/sturm-vs-slovan",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-conference-league/2023-2024/sturm-vs-slovan",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-conference-league/2023-2024/slovan-vs-sturm",
+    "url": "https://sksturm.at/m/profis/uefa-conference-league/2023-2024/slovan-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-conference-league/2023-2024/slovan-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/2023-2024/maerz",
+    "url": "https://sksturm.at/m/profis/2023-2024/maerz",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/2023-2024/maerz",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-conference-league/2023-2024/sturm-vs-lille",
+    "url": "https://sksturm.at/m/profis/uefa-conference-league/2023-2024/sturm-vs-lille",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-conference-league/2023-2024/sturm-vs-lille",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  },
+  {
+    "label": "/m/profis/uefa-conference-league/2023-2024/lille-vs-sturm",
+    "url": "https://sksturm.at/m/profis/uefa-conference-league/2023-2024/lille-vs-sturm",
+    "referenceUrl": "https://stage.sturm.fredmansky.com/m/profis/uefa-conference-league/2023-2024/lille-vs-sturm",
+    "delay": 200,
+    "misMatchThreshold": 0.1,
+    "requireSameDimensions": true
+  }
+],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
