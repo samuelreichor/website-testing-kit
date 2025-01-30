@@ -45,3 +45,4 @@ just run `backstop test`
 
 - https://github.com/garris/BackstopJS?tab=readme-ov-file
 - https://github.com/ktty1220/export-cookie-for-puppeteer
+- Regex for `0 => "`: `^\s*\d+\s*=>\s*"`
